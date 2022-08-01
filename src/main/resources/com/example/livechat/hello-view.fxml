@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0"
+            prefWidth="396.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button layoutX="330.0" layoutY="439.0" mnemonicParsing="false" text="Send"/>
+        <TextField layoutX="14.0" layoutY="439.0" prefHeight="25.0" prefWidth="309.0"/>
+        <ScrollPane layoutX="14.0" layoutY="78.0" prefHeight="355.0" prefWidth="357.0">
+            <VBox fx:id="vbox_messages" prefHeight="248" prefWidth="412"/>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="392.0" prefWidth="355.0"/>
+        </ScrollPane>
+        <Label layoutX="92.0" layoutY="24.0" prefHeight="46.0" prefWidth="213.0" text="My Messenger">
+            <font>
+                <Font size="31.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
